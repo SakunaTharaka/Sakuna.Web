@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakuna - Personal Portfolio</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .gradient-text {
+                background: linear-gradient(to right, #60A5FA, #7C3AED);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-slate-900/90 backdrop-blur-sm z-50 py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold gradient-text">Sakuna</h1>
+            <div class="space-x-4">
+                <button class="px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">Explore My Work</button>
+                <button class="px-4 py-2 border border-blue-600 rounded-lg hover:bg-blue-600/10 transition-colors">Get in Touch</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center px-4 pt-20">
+        <div class="text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 gradient-text">
+                Sakuna
+            </h1>
+            <p class="text-xl text-gray-300 mb-8">
+                Innovator • Developer • Culinary Explorer
+            </p>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="py-20 px-4 bg-slate-800/50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Expertise</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 transition-colors">
+                    <h3 class="text-xl font-bold mb-3">Software Development</h3>
+                    <p class="text-gray-300">C#, Windows Forms, Web Applications</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 transition-colors">
+                    <h3 class="text-xl font-bold mb-3">Automation</h3>
+                    <p class="text-gray-300">Telegram Bots, Auto-typing Solutions</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 transition-colors">
+                    <h3 class="text-xl font-bold mb-3">Culinary Innovation</h3>
+                    <p class="text-gray-300">Vegetarian Alternatives, Bakery Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="py-20 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-slate-800 rounded-xl overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Auto-Typing Bot</h3>
+                        <p class="text-gray-300">Advanced Windows Forms application with customizable typing speeds and Excel integration</p>
+                    </div>
+                </div>
+                <div class="bg-slate-800 rounded-xl overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Shop Management System</h3>
+                        <p class="text-gray-300">Web-based ordering system for managing 17 shops and bakery operations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 px-4 bg-slate-800/50">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+            <p class="text-gray-300 mb-6 text-center">
+                A multifaceted innovator with a passion for creating meaningful solutions through technology and culinary arts. From developing efficient software applications to crafting vegetarian alternatives, I bring creativity and technical expertise to every project.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 border-t border-slate-800">
+        <div class="container mx-auto text-center text-gray-400">
+            <p>© 2025 Sakuna. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
